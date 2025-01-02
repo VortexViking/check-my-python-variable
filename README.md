@@ -9,7 +9,11 @@ A combination of Python and shell scripts to verify if your variables are functi
 
 ## Usage Instructions
 
+Note: The scripts are located in the "scripts" folder.
+
 The project provides scripts for Linux, macOS, and Windows to execute the `declare-variable.py` script and check its functionality. Follow the instructions below based on your operating system:
+
+Read: Edit your values in `declare-variable.py`. There will be instructions in the form of comments to guide you through using the file.
 
 ### For Linux and macOS
 
@@ -19,12 +23,14 @@ The project provides scripts for Linux, macOS, and Windows to execute the `decla
 2. **Navigate to the Script Directory:**
    - Use the `cd` command to change to the directory containing the scripts and the `declare-variable.py` file.
    ```bash
-   cd /path/to/check-my-variable
+    cd /path/to/check-my-python-variable
+   ```
 
 3.Run the Script:
 
 For Linux, execute:
 `./test-variable-linux.sh`
+
 For macOS, execute:
 
 `./test-variable-mac.sh`
