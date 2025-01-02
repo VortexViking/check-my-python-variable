@@ -1,3 +1,34 @@
+
+# ===== HOW TO USE AND EDIT THIS SCRIPT =====
+#
+# Purpose:
+# This Python script checks and analyzes a user-provided variable name.
+#
+# How to use:
+# 1. Run the script: python declare-variable.py
+# 2. Enter a variable name when prompted
+# 3. The script will perform various checks on the variable
+#
+# How to edit:
+# 1. Open the script in a text editor of your choice
+# 2. Modify existing functions or add new ones as needed
+# 3. Save your changes and exit the editor
+#
+# Key points for editing:
+# - Lines 11-14: Modify input handling and validation if needed
+# - Lines 19-24: Edit the 'exist' function to change existence check logic
+# - Lines 26-32: Adjust the 'boolean' function for boolean checks
+# - Lines 34-47: Update the 'type_check' function to modify or add type checks
+# - Lines 49-59: Modify the 'length_check' function for string length criteria
+# - Lines 61-68: Adjust the 'empty_check' function for emptiness evaluation
+# - Lines 70-75: Add or remove function calls as needed
+#
+# Note: Be cautious when using eval() as it can be a security risk with user input.
+# Consider using safer alternatives for type checking and evaluation.
+#
+# ============================================
+
+
 #Variable 
 
 def main():
